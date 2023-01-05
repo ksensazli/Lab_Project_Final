@@ -1,0 +1,11 @@
+# ninja log v5
+0	314	1672916410923244970	CMakeFiles/Lab_Project_v1.dir/Sample.cpp.o	bfcb3f144811666a
+0	383	1672916410991245440	CMakeFiles/Lab_Project_v1.dir/main.cpp.o	b951f2270a05d4f
+1	478	1672916411083246077	CMakeFiles/Lab_Project_v1.dir/KNNClassifier.cpp.o	d8141619f695d8d1
+478	542	1672916411147246520	Lab_Project_v1	b5cdb8866285ac37
+1	311	1672918157762785542	CMakeFiles/Lab_Project_v1.dir/Sample.cpp.o	bfcb3f144811666a
+1	398	1672918157846786407	CMakeFiles/Lab_Project_v1.dir/main.cpp.o	b951f2270a05d4f
+1	505	1672918157954787519	CMakeFiles/Lab_Project_v1.dir/KNNClassifier.cpp.o	d8141619f695d8d1
+505	570	1672918158018788178	Lab_Project_v1	b5cdb8866285ac37
+1	371	1672918171902930709	CMakeFiles/Lab_Project_v1.dir/main.cpp.o	b951f2270a05d4f
+371	437	1672918171966931364	Lab_Project_v1	b5cdb8866285ac37

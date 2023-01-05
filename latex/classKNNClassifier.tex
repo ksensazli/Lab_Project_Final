@@ -1,0 +1,63 @@
+\hypertarget{classKNNClassifier}{}\doxysection{K\+N\+N\+Classifier Class Reference}
+\label{classKNNClassifier}\index{KNNClassifier@{KNNClassifier}}
+
+
+{\ttfamily \#include $<$K\+N\+N\+Classifier.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classKNNClassifier_ade37424156cd137eabeb6388f95aa875}{K\+N\+N\+Classifier}} (const vector$<$ \mbox{\hyperlink{classSample}{Sample}} $>$ \&)
+\begin{DoxyCompactList}\small\item\em Constructor initializes the classifier with the given training samples. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classKNNClassifier_a32330da09290a0383507a51c4b573a00}{Classify}} (const \mbox{\hyperlink{classSample}{Sample}} \&, int)
+\begin{DoxyCompactList}\small\item\em Classify test sample using K\+NN algorithm with given number of neighbors. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \mbox{\hyperlink{classSample}{Sample}} $>$ \mbox{\hyperlink{classKNNClassifier_a69b4c54cca1594c49c3ed4f517d946db}{training\+\_\+samples\+\_\+}}
+\begin{DoxyCompactList}\small\item\em A vector of \mbox{\hyperlink{classSample}{Sample}} objects representing the training data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classKNNClassifier_ade37424156cd137eabeb6388f95aa875}\label{classKNNClassifier_ade37424156cd137eabeb6388f95aa875}} 
+\index{KNNClassifier@{KNNClassifier}!KNNClassifier@{KNNClassifier}}
+\index{KNNClassifier@{KNNClassifier}!KNNClassifier@{KNNClassifier}}
+\doxysubsubsection{\texorpdfstring{KNNClassifier()}{KNNClassifier()}}
+{\footnotesize\ttfamily K\+N\+N\+Classifier\+::\+K\+N\+N\+Classifier (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{classSample}{Sample}} $>$ \&}]{training\+\_\+samples }\end{DoxyParamCaption})}
+
+
+
+Constructor initializes the classifier with the given training samples. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classKNNClassifier_a32330da09290a0383507a51c4b573a00}\label{classKNNClassifier_a32330da09290a0383507a51c4b573a00}} 
+\index{KNNClassifier@{KNNClassifier}!Classify@{Classify}}
+\index{Classify@{Classify}!KNNClassifier@{KNNClassifier}}
+\doxysubsubsection{\texorpdfstring{Classify()}{Classify()}}
+{\footnotesize\ttfamily int K\+N\+N\+Classifier\+::\+Classify (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSample}{Sample}} \&}]{test\+\_\+sample,  }\item[{int}]{num\+\_\+neighbors }\end{DoxyParamCaption})}
+
+
+
+Classify test sample using K\+NN algorithm with given number of neighbors. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classKNNClassifier_a69b4c54cca1594c49c3ed4f517d946db}\label{classKNNClassifier_a69b4c54cca1594c49c3ed4f517d946db}} 
+\index{KNNClassifier@{KNNClassifier}!training\_samples\_@{training\_samples\_}}
+\index{training\_samples\_@{training\_samples\_}!KNNClassifier@{KNNClassifier}}
+\doxysubsubsection{\texorpdfstring{training\_samples\_}{training\_samples\_}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classSample}{Sample}}$>$ K\+N\+N\+Classifier\+::training\+\_\+samples\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+A vector of \mbox{\hyperlink{classSample}{Sample}} objects representing the training data. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{KNNClassifier_8h}{K\+N\+N\+Classifier.\+h}}\item 
+\mbox{\hyperlink{KNNClassifier_8cpp}{K\+N\+N\+Classifier.\+cpp}}\end{DoxyCompactItemize}
