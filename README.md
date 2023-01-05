@@ -1,11 +1,11 @@
 # Lab_Project_Final
 Object Oriented Programming I Course Laboratory Final Project
 
-1. Sample
+1. Sample <br />
 This code defines a class called Sample with three member variables: index, category, and features. The index and category variables are both integers, and features is a vector of doubles.<br />
 The Sample class has a constructor that takes three arguments: index, category, and features. The constructor initializes the member variables of the Sample object with the values of the corresponding arguments.<br />
 The Sample class has the public access specifier, which means that all of its member variables and member functions can be accessed from outside the class.<br />
-2. KNNClassifier
+2. KNNClassifier <br />
 The KNNClassifier class is an implementation of the k-nearest neighbors (KNN) classification algorithm. The KNN algorithm is a simple and effective method for classifying samples based on their feature values. It works by finding the k training samples that are most similar to a given test sample and then using the categories of those samples to predict the category of the test sample.<br />
 The KNNClassifier class has a single constructor that takes a vector of Sample objects as its training_samples argument. The Sample object has two members: features, which is a vector of feature values, and category, which is an integer label representing the category of the sample. The constructor initializes the training_samples_ member variable with the given training samples.<br />
 The Classify() method takes a test Sample object and an integer num_neighbors as its arguments. It returns an integer representing the predicted category of the test sample. The method first calculates the distance between the test sample and each training sample using the Euclidean distance formula. It then sorts the distances in ascending order and gets the categories of the k-nearest neighbors (where k is the value of num_neighbors). Finally, it returns the category that has the most votes among the k-nearest neighbors.<br />
